@@ -28,22 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.NomYMatric = new System.Windows.Forms.Label();
+            this.Nombre = new System.Windows.Forms.Label();
             this.CambLabel = new System.Windows.Forms.Button();
+            this.LeerNom = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // NomYMatric
+            // Nombre
             // 
-            this.NomYMatric.AutoSize = true;
-            this.NomYMatric.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.NomYMatric.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NomYMatric.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.NomYMatric.Location = new System.Drawing.Point(12, 89);
-            this.NomYMatric.Name = "NomYMatric";
-            this.NomYMatric.Size = new System.Drawing.Size(838, 20);
-            this.NomYMatric.TabIndex = 0;
-            this.NomYMatric.Text = "Bienvenido a mi formulario WindowsForms mi nombre es Carlos Daniel y mi matricula" +
-    " es LR-2025-03111";
+            this.Nombre.AutoSize = true;
+            this.Nombre.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nombre.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Nombre.Location = new System.Drawing.Point(12, 89);
+            this.Nombre.Name = "Nombre";
+            this.Nombre.Size = new System.Drawing.Size(155, 20);
+            this.Nombre.TabIndex = 0;
+            this.Nombre.Text = "Escribe tu nombre";
             // 
             // CambLabel
             // 
@@ -56,14 +58,45 @@
             this.CambLabel.UseVisualStyleBackColor = true;
             this.CambLabel.Click += new System.EventHandler(this.CambLabel_Click);
             // 
+            // LeerNom
+            // 
+            this.LeerNom.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LeerNom.Location = new System.Drawing.Point(16, 112);
+            this.LeerNom.Name = "LeerNom";
+            this.LeerNom.Size = new System.Drawing.Size(149, 26);
+            this.LeerNom.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(371, 163);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 19);
+            this.label1.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(341, 188);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 19);
+            this.label2.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(887, 422);
+            this.ClientSize = new System.Drawing.Size(724, 422);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.LeerNom);
             this.Controls.Add(this.CambLabel);
-            this.Controls.Add(this.NomYMatric);
+            this.Controls.Add(this.Nombre);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -73,8 +106,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label NomYMatric;
+        private System.Windows.Forms.Label Nombre;
         private System.Windows.Forms.Button CambLabel;
+        private System.Windows.Forms.TextBox LeerNom;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

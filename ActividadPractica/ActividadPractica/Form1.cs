@@ -24,7 +24,7 @@ namespace ActividadPractica
 
         private void CambLabel_Click(object sender, EventArgs e)
         {
-            NomYMatric.Text = "Texto cambiado";
+            label2.Text = "Bienvenido " + LeerNom.Text;
         }
     }
 }
