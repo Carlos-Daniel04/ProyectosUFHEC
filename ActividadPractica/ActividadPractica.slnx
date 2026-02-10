@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="ActividadPractica/ActividadPractica.csproj" />
+  <Project Path="Calculadora WindowsForms/Calculadora WindowsForms.csproj" />
   <Project Path="Practica 1 . 14/Practica 1 . 14.csproj" />
   <Project Path="Practica1 . 05/Practica1 . 05.csproj" />
   <Project Path="Practica1 . 10/Practica1 . 10.csproj" />
